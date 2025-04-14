@@ -157,7 +157,7 @@
     ] else if it.level == 2 [
       // Second-level headings are run-ins.
       #set par(first-line-indent: 0pt)
-      #set text(style: "italic")
+      #set text(size: 12pt, style: "italic")
       #v(10pt, weak: true)
       #if it.numbering != none {
         numbering(heading-numbering, ..levels)
